@@ -82,11 +82,10 @@ Multi-class ROC-AUC
 Confusion matrix + classification report
 
 🏆 Results
-Typical performance (with 30% noise + 15% label flip):
 
 Mean ROC-AUC ≈ 0.78–0.83
 
-Precision & recall vary across activity types, indicating real-world variability
+Precision & recall vary across activity types
 
 📌 Citation
 If using this code or adapted dataset, please cite:
