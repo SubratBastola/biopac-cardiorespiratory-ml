@@ -7,7 +7,7 @@ from biopac_pipeline.model import build_model_pipeline
 from biopac_pipeline.evaluate import evaluate_pipeline
 
 # === Load and preprocess ===
-X, y = load_data("data/class_data_2022_2023_2024.csv")
+X, y = load_data("data/class_data.csv")
 y_encoded, le = encode_labels(y)
 X = filter_variance(X, threshold=0.01)
 class_names = le.classes_
